@@ -6,7 +6,7 @@ use App\Controllers\BaseController;
 use CodeIgniter\HTTP\ResponseInterface;
 use App\Controllers\Traits\AuthDataTrait;
 
-class DashboardController extends BaseController
+class CustomersController extends BaseController
 {
     use AuthDataTrait;
     public function index()
@@ -15,11 +15,11 @@ class DashboardController extends BaseController
         return view('dashboard/index.php', $this->getAuthData());
     }
 
-    // Log out
-    public function logOut()
+    // Customers admin menu page
+    public function customerAdminMenu()
     {
-        session()->remove("loggedUser");
-        session()->destroy();
-        return redirect()->to(base_url("/"))->with("message", "You have been Logged Out");
+        // new customers, customer categories, customers list
+
+        return "This will be the customers admin menu";
     }
 }

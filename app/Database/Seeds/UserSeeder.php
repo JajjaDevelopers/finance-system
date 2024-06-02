@@ -10,11 +10,11 @@ class UserSeeder extends Seeder
     public function run()
     {
         //user data
-        $password = HandlePassword::hashPassword('12345678');
+        $password = HandlePassword::hashPassword('root');
         $data = [
-        "name" => 'Jajja Felix',
-        "email" => 'devjaja@gmail.com',
-        "password" => $password,
+            "name" => 'wisaac',
+            "email" => 'wisaac@gmail.com',
+            "password" => $password,
         ];
 
         $this->db->table('users')->insert($data);

@@ -1,0 +1,42 @@
+INFO - 2024-05-15 19:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-15 19:34:01 --> mysqli_sql_exception: Unknown column 'user_name' in 'field list' in C:\wamp64\www\finance-system\finance-system\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\wamp64\www\finance-system\finance-system\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\wamp64\www\finance-system\finance-system\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp64\www\finance-system\finance-system\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp64\www\finance-system\finance-system\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp64\www\finance-system\finance-system\app\Database\Seeds\UserSeeder.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\finance-system\finance-system\system\Database\Seeder.php(147): App\Database\Seeds\UserSeeder->run()
+#6 C:\wamp64\www\finance-system\finance-system\system\Commands\Database\Seed.php(79): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\wamp64\www\finance-system\finance-system\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 C:\wamp64\www\finance-system\finance-system\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 C:\wamp64\www\finance-system\finance-system\system\Boot.php(338): CodeIgniter\CLI\Console->run()
+#10 C:\wamp64\www\finance-system\finance-system\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#11 C:\wamp64\www\finance-system\finance-system\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-05-15 19:35:36 --> mysqli_sql_exception: Unknown column 'user' in 'field list' in C:\wamp64\www\finance-system\finance-system\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\wamp64\www\finance-system\finance-system\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\wamp64\www\finance-system\finance-system\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp64\www\finance-system\finance-system\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp64\www\finance-system\finance-system\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp64\www\finance-system\finance-system\app\Database\Seeds\UserSeeder.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\finance-system\finance-system\system\Database\Seeder.php(147): App\Database\Seeds\UserSeeder->run()
+#6 C:\wamp64\www\finance-system\finance-system\system\Commands\Database\Seed.php(79): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\wamp64\www\finance-system\finance-system\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 C:\wamp64\www\finance-system\finance-system\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 C:\wamp64\www\finance-system\finance-system\system\Boot.php(338): CodeIgniter\CLI\Console->run()
+#10 C:\wamp64\www\finance-system\finance-system\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#11 C:\wamp64\www\finance-system\finance-system\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#12 {main}
+INFO - 2024-05-15 19:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
